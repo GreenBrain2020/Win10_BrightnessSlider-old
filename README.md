@@ -18,51 +18,8 @@ targeting laptops.
 **Download Link**   [All Versions](https://github.com/blackholeearth/Win10_BrightnessSlider/releases)
 
 
-#### Features
-
-* Supports ddc/ci monitors 
-* Seperate Sliders For Multiple Monitors
-* Volume like Slider to Change Monitor Brightness
-* Option to Run At Startup
-* Ability to *"Rescan/Detect Monitor"* after a Monitor Plugged in/out
-
-#### ScreenShots
-
-
-
-![alt text](https://github.com/blackholeearth/Win10_BrightnessSlider/blob/master/ss1.jpg?raw=true)
-
-![alt text](https://github.com/blackholeearth/Win10_BrightnessSlider/blob/master/ss2.jpg?raw=true)
-
-![alt text](https://github.com/blackholeearth/Win10_BrightnessSlider/blob/master/ss3.jpg?raw=true)
-
-
-#### NOTES   
-* if slider working. but suddenly (you plug/unplug monitor/MirrorScreen in any way) then screen act up weird for second.
- you CAN get error while trying to change birghtness, you gotta press "Detect monitor".  
- 
-* if it doesn't work:
-
-  a) try install/update your graphic driver  
-  b) try enable ddci on monitor
- 
 #### ChangeLog
 
-v1.7.7
- * prevent log error
- * added: hide sliderform even when clicked on taskbar icon 
- * fixed: in ltr system(ie arabic) taskbar is at other side . 
- * added: taskbar icon tooltip-text shows pct of all sliders ( after first  form_show) 
-
-v1.7.5
- * fixing: null check  richscreen.getbrighness>get_physicalmonitor()
- * added:  sun image near each slider shows name on hover
- * fixed: ``(ddci problem )slider doesnt change birghtness at first time, i have to rightclick trayIcon > Press "detect Monitor"``  
-* added:  Check For Updates , shows in rightclick menu.
-* fixed: new monitor populator
-* fixed: ddci brightness displaying -1 (may not work on all ddci monitors)
-* fixed: blurry text high dpi  
-* fixed: ``i got 3 screens, but i have 5 sliders``. (slider popualtion method changed )
  
 v1.04 [most stable]
 * added: author page to  menu item  that shows version no.
